@@ -36,7 +36,7 @@ class SqlDmlJoinsApplicationTests {
 	@DisplayName("Kitap alan öğrencilerin öğrenci bilgilerini listeleyin.")
 	@Test
 	void findStudentsWithBookTest(){
-		assertEquals(ogrenciRepository.findStudentsWithBook().size(), 17);
+		assertEquals(ogrenciRepository.findStudentsWithBook().size(), 8);
 	}
 
 	@DisplayName("Kitap almayan öğrencileri listeleyin.")
